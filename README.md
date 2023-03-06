@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# furever-friends
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+As a potential pet owner, I want to use a pet adoption app to find my perfect furry companion.
+I start by opening the pet adoption app and browsing through the available pets. I can filter my search by pet type, breed, age, and location to find pets that match my preferences.
+I find a few pets that I'm interested in and click on their profiles to learn more about them. The profiles include pictures, descriptions, and information about the pet's personality, health, and behavior.
+If I find a pet that I'm interested in adopting, I can contact the adoption agency directly through the app to ask questions or schedule a visit. I can also save pets that I'm interested in for future reference.
+Once I've found the perfect pet, I can complete the adoption process through the app. This includes filling out an adoption application, submitting references, and paying any adoption fees.
+Finally, I can use the app to stay connected with the adoption agency and receive updates about my new pet, including information about training, health care, and socialization opportunities.
+With the pet adoption app, I feel confident that I can find my perfect furry companion and provide them with a loving forever home.
 
-## Available Scripts
+## Table of Contents 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [MIT license License](#license)
 
-In the project directory, you can run:
 
-### `npm start`
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
+This application is entirely online.  Just follow the [link](https://fureverfriends.herokuapp.com/) and start adopting today.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+Go to the [website](https://petfeed.herokuapp.com/) and create a user, then find your new forever friend.
 
-### `npm run build`
+## Questions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you have any questions about this application send us a message on [github](https://github.com/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[github](https://github.com/) repo's for: 
+ -Jeffrey Ackerman
+ -Austin Bennett- https://github.com/awb157
+ -Alec Summers- https://github.com/asummers7
+ -Rhonda Van Dam- https://github.com/Rhondoid
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Contribute
+This was developed by [Jeffrey](https://github.com/), [Austin](https://github.com/awb157), [Alec](https://github.com/asummers7),and [Rhonda](https://github.com/Rhondoid). 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tests
+If you find any errors with this application, please let us know by sending us a message on github.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Credits
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This application was made to run in [node.js](https://nodejs.org/)with [react] (https://reactnative.dev/) for the frontend and [graphql] (https://graphql.org/), [mongoose] (https://mongoosejs.com/) for the database  [express-session](https://www.npmjs.com/package/express-session) for handling the cookie (never eat raw cookies,) [bcrypt](https://www.npmjs.com/package/bcrypt) to encrypt passwords, [dotenv](https://www.npmjs.com/package/dotenv) for environment variable storage, , [tailwindcss](https://tailwindcss.com/) for styling,  and [jawsDB](https://www.jawsdb.com/) for database services.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+MIT
