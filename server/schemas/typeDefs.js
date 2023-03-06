@@ -35,8 +35,8 @@ const typeDefs = gql`
     user(username: String!): User
     animals: [Animals]
     animal: (animalType: String, animalBreed: String, animalName: String, animalAge: Int, id: ID)
-    thoughts(username: String): [Thought]
-    thought(thoughtId: ID!): Thought
+    comments(username: String): [Comment]
+    comments(commentId: ID!): Comment
     me: User
   }
 
@@ -44,11 +44,11 @@ const typeDefs = gql`
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
     addAnimal(animalType: String!, animalBreed: String!, animalName: String!, animalAge: Int!)
-    addThought(thoughtText: String!): Thought
-    addComment(thoughtId: ID!, commentText: String!): Thought
+    addComment(CommentText: String!): Comment
+    addComment(commentId: ID!, commentText: String!): Comment
     removeAnimal(animalType: String, animalBreed: String, animalName: String, animalAge: Int, animalId: ID!)
-    removeThought(thoughtId: ID!): Thought
-    removeComment(thoughtId: ID!, commentId: ID!): Thought
+    removeComment(commentId: ID!): Comments
+    removeComment(thoughtId: ID!, commentId: ID!): Comment
   }
 `;
 
